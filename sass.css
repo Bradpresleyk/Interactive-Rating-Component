@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background: hsl(216, 12%, 8%);
+  font-size: 15px;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#cardOne {
+  display: flex;
+  flex-direction: column;
+  background: hsl(213, 19%, 18%);
+  height: 360px;
+  width: 300px;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 10%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.starCircle {
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4%;
+  margin-left: -3%;
+  z-index: 1;
+  opacity: 4.9;
+  border: 1px solid hsl(216, 12%, 8%);
+}
+
+#star {
+  height: 10px;
+  width: 10px;
+}
+
+#mainHeader {
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-family: "overpass";
+  font-weight: 700;
+}
+
+.description {
+  color: hsl(216, 12%, 54%);
+  font-family: "overpass";
+  font-weight: 400;
+}
+
+#mainP {
+  text-align: center;
+}
+
+.ratingOptions {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.ratingOptions * {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+  z-index: 1;
+  border: 1px solid hsl(216, 12%, 8%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cardTwo {
+  display: none;
+  font-family: "overpass";
+  align-content: space-around;
+  height: 360px;
+  width: 300px;
+  background: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  padding: 10%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+#thankyouSvg {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#youratedText {
+  color: hsl(25, 97%, 53%);
+  margin-top: 5%;
+  text-align: center;
+}
+
+#thanksHeader {
+  color: hsl(0, 0%, 100%);
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: -10%;
+}
+
+#thanksP {
+  color: hsl(217, 12%, 63%);
+  margin-top: 20%;
+}
+
+#numberOne:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.7s;
+}
+
+#numberTwo:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.7s;
+}
+
+#numberThree:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.7s;
+}
+
+#numberFour:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.7s;
+}
+
+#numberFive:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: 0.7s;
+}
+
+#submitBtn {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: -4%;
+  margin-top: 2%;
+}/*# sourceMappingURL=sass.css.map */
